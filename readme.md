@@ -1,13 +1,14 @@
-###Setting up a new repo
+## My own Git Tutorials
 
-1. Create new repo in github account first (havent found automatic method yet)
-		a. Need to understand how github servers work first
-2. In command line:
-	```git init```
-	```git add <files>```
-	```git commit -m "first commit"```
-	```git remote add origin git@github.com:hwlee96/<reponame>.git```
-	```git push -u origin master```
+### Setting up a new repo on local server
+* To initialize empty repository in current working directory
+```git init```
+* To stage (add) files before committing:
+```git add <files>``` 
+* To commit:
+```git commit -m "first commit"```
+* To stage (add) and commit at the same time:
+```git commit -m "commit message" -a```
 
 ### Resetting commits/adds
 
@@ -22,9 +23,9 @@
 
 
 ### Git Branching
-To create (if you haven't already) and change to branch specified if you haven't done so:
+* To create (if you haven't already) and change to branch specified if you haven't done so:
 ``` git checkout -b <branch-name>``` 
-To just checkout existing branch:
+* To just checkout existing branch:
 ``` git checkout <branch-name>``` 
 
 ### Git Stash
@@ -47,3 +48,8 @@ Instead of merging all of these commits into the master branch you can use the s
 ```git merge <branch-name> squash```
 
 When you merge with the squash flag, it won't actually change the head commit on the master branch so you'll need to add an additional commit on your own that says something like merged in feature branch and that gives us a nice compact change history on the master (so if you checkout to another branch without committing this squash merge, when you check back out to master the changes wont be "saved")
+
+### To push to Github
+```git remote add origin git@github.com:hwlee96/<reponame>.git```
+
+```git push -u origin master```
