@@ -22,8 +22,10 @@
 
 
 ### Git Branching
-To create (if you haven't already) and change to branch specified if you haven't done so.
+To create (if you haven't already) and change to branch specified if you haven't done so:
 ``` git checkout -b <branch-name>``` 
+To just checkout existing branch:
+``` git checkout <branch-name>``` 
 
 ### Git Stash
 You don't necessarily have to commit your files before switching to the master branch there's a another mechanism to save your work in progress if you're working on something that's half-finished or experimental.
