@@ -46,4 +46,4 @@ Instead of merging all of these commits into the master branch you can use the s
 
 ```git merge <branch-name> squash```
 
-When you merge with the squash flag, it won't actually change the head commit on the master branch so you'll need to add an additional commit on your own that says something like merged in feature branch and that gives us a nice compact change history on the master
+When you merge with the squash flag, it won't actually change the head commit on the master branch so you'll need to add an additional commit on your own that says something like merged in feature branch and that gives us a nice compact change history on the master (so if you checkout to another branch without committing this squash merge, when you check back out to master the changes wont be "saved")
