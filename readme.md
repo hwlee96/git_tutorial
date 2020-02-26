@@ -1,4 +1,4 @@
-## My own Git Tutorials
+## My own Git tutorials
 
 ### Setting up a new repo on local server
 * To initialize empty repository in current working directory
