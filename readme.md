@@ -1,5 +1,4 @@
-###Setting up a new repo repo
-###Setting up a new
+###Setting up a new repo
 
 1. Create new repo in github account first (havent found automatic method yet)
 		a. Need to understand how github servers work first
@@ -9,7 +8,7 @@
 	```git commit -m "first commit"```
 	```git remote add origin git@github.com:hwlee96/<reponame>.git```
 	```git push -u origin master```
-	
+
 ### Resetting commits/adds
 
 ```git add .```
