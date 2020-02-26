@@ -39,3 +39,6 @@ This will save all of your current changes without committing them and then reve
 ```git stash pop```
 
 So kind of just like it sounds you're stashing away your current changes to be used at some later point so stashing is just a handy thing to know and an alternative to committing your code if you're not quite ready to do so.
+
+### Squashing
+A lot of times on a feature branch you'll create a lot of different commits and these commits are kind of irrelevant to what's going on in the master branch, e.g. you can see here that our feature branch is three commits ahead of our master branch and it has a bunch of comments about adding useless emojis to the code. 
