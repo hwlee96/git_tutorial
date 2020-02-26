@@ -19,3 +19,16 @@
 ```git reset HEAD~```                                    
 << edit files as necessary >>                              
 ```git add ...```  
+
+### Git Stash
+You don't necessarily have to commit your files before switching to the master branch there's a another mechanism to save your work in progress if you're working on something that's half-finished or experimental.
+
+You can use a command called ```git stash``` 
+
+```git stash -u```
+
+This will save all of your current changes without committing them and then revert back to a clean working directory then later at some point in the future when you want to get back to work. You can either pop or apply the changes in that stash to your current working directory.
+
+```git stash pop```
+
+So kind of just like it sounds you're stashing away your current changes to be used at some later point so stashing is just a handy thing to know and an alternative to committing your code if you're not quite ready to do so.
