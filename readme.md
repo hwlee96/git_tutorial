@@ -52,4 +52,4 @@ When you merge with the squash flag, it won't actually change the head commit on
 ### To push to Github
 ```git remote add origin git@github.com:hwlee96/<reponame>.git```
 
-```git push -u origin master```
+```git push -u origin <branch-name>``` (e.g. master or name of branch)
