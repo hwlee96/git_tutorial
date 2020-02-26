@@ -42,3 +42,5 @@ So kind of just like it sounds you're stashing away your current changes to be u
 
 ### Squashing
 A lot of times on a feature branch you'll create a lot of different commits and these commits are kind of irrelevant to what's going on in the master branch, e.g. you can see here that our feature branch is three commits ahead of our master branch and it has a bunch of comments about adding useless emojis to the code. 
+Instead of merging all of these commits into the master branch you can use the squash flag to squash them down into a single commit. When you do so, your merge this will keep the change history nice and concise on the master branch but still preserve all of the original commits on the feature branch itself. 
+
