@@ -1,4 +1,4 @@
-###Setting up a new repo
+###Setting up a new
 
 1. Create new repo in github account first (havent found automatic method yet)
 		a. Need to understand how github servers work first
