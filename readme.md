@@ -53,3 +53,18 @@ When you merge with the squash flag, it won't actually change the head commit on
 ```git remote add origin git@github.com:hwlee96/<reponame>.git```
 
 ```git push -u origin <branch-name>``` (e.g. master or name of branch)
+
+### For collaborating - pull requests (no forking)
+* Git & GitHub Tutorial for Beginners #11 - Collaborating on GitHub (really good)
+    * https://www.youtube.com/watch?v=MnUd31TvBoU
+    * Note that even if you delete a branch after merging the pull request on GitHub, the branch still exists on Git installed on your local system. If you want to delete this branch, you have to research how to do so, but should be straightforward. 
+
+### For collaborating - pull requests (forking)
+* https://www.youtube.com/watch?v=rgbCcBNZcdQ 
+* Same as no forking generally
+
+
+### Other resources
+* http://rogerdudler.github.io/git-guide/ (I used to use this a lot)
+* Pro Git Book (downloaded, but not verified if good and useful)
+* Rebasing (watched before but can't rmb) - https://www.youtube.com/watch?v=f1wnYdLEpgI 
